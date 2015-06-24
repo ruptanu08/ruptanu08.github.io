@@ -1,0 +1,241 @@
+body {
+	 background-image: url("old.jpg");
+}
+h2 {
+	font-size: 70px;
+	margin: 10px 10px 10px 10px;
+	color: #291400;
+	font-family: Papyrus;
+	text-shadow: 3px 3px 3px #FFFFFF;
+	text-align: center;
+}
+
+h1 {
+	padding-left: 50px;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+	font-family: Calibri;
+	font-size: 20px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+#nav {
+	background-color: rgba(242,248,100,.5);
+	color: black;
+	padding-left: 50px;
+	border: 1px solid black;
+}
+
+
+nav_wrapper {
+	padding-left: 0px;
+	width: 100%;
+	margin: 0;
+	text-align: left;
+	background-color: #000000;
+	opacity: 0.5;
+	
+}
+
+#nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+#nav ul li {
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+}
+
+#nav ul li:hover {
+	background-color: green;
+	z-index: 100;
+}
+
+
+#nav ul li:hover ul {
+	display: block;
+	background-color: #ccc;
+	z-index: 100;
+}
+
+#nav ul li a {
+	color: black;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
+}
+
+#nav ul li a:active{
+	color: red;
+	background-color: #ccc;
+}
+
+#nav ul li a:hover{
+	color: white;
+}
+
+
+
+
+#nav ul ul {
+	display: none;
+	position: absolute;
+	background-color: #6666A3;
+}
+
+#nav ul ul li {
+	display: block;
+}
+
+#nav ul ul li a {
+	color: #111;
+}
+
+#nav ul ul li a:hover {
+	color: #FFFFFF;
+}
+
+
+#message
+{
+
+  margin: 50px 50px;
+  padding: 30px 30px;
+  background-color: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 87%;
+}
+
+#message p
+{
+  margin: 10px 10px 10px 50px;
+  color: black;
+}
+
+
+
+.test {
+	margin: 30px 50px;
+    padding: 15px 30px;
+    background: transparent;
+    width: 100px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.test:hover {
+	background: #333;
+	border: 1px solid white;
+	color: white;
+}
+
+#search {
+	margin-left: 30px;
+	padding: 4px 10px;
+    background: transparent;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#tfnewsearch{
+		float:right;
+		padding:10px;
+		padding-right: 150px;
+	}
+.tftextinput{
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border:1px solid #333; border-right:0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+	background-color: transparent;
+}
+.tfbutton {
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px black;
+
+	background: #393939;
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.tfbutton:hover {
+	text-decoration: none;
+	background: #663300;
+}
+/* Fixes submit button height problem in Firefox */
+.tfbutton::-moz-focus-inner {
+  border: 0;
+}
+.tfclear{
+	clear:both;
+}
+
+.currentLink {
+   background-color: #555;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+}
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: 100px;
+    width: 100px;
+    float: left;
+    text-align: center;
+}	
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border: 1px solid #0000ff;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+}
+
+#container
+{
+
+  margin: 50px 50px;
+  padding: 30px 30px;
+  background-color: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 60%;
+  height: auto;
+}
